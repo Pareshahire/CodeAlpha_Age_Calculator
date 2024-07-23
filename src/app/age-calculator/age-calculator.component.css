@@ -1,0 +1,79 @@
+/* age-calculator.component.css */
+:host {
+    display: block;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 2rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #00e676;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+  }
+  
+  input[type="date"] {
+    display: block;
+    width: 100%;
+    padding: 12px 20px; /* Adjusted padding */
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    font-size: 1rem;
+    outline: none;
+    transition: background 0.3s ease;
+    box-sizing: border-box; /* Ensure padding includes the border */
+  }
+  
+  input[type="date"]::placeholder {
+    color: #b0bec5;
+  }
+  
+  input[type="date"]:focus {
+    background: rgba(255, 255, 255, 0.2);
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 12px 20px; /* Matching padding with input */
+    border: none;
+    border-radius: 5px;
+    background: #00e676;
+    color: #0f2027;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+    box-sizing: border-box; /* Ensure padding includes the border */
+  }
+  
+  button:hover {
+    background: #00c853;
+    transform: translateY(-3px);
+  }
+  
+  button:active {
+    transform: translateY(-1px);
+  }
+  
+  div {
+    text-align: center;
+    margin-top: 1rem;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1rem;
+    border-radius: 5px;
+  }
+  
+  p {
+    font-size: 1.25rem;
+    color: #ffffff;
+  }
+  

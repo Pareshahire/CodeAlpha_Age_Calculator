@@ -1,0 +1,8 @@
+<div>
+  <h1>Age Calculator</h1>
+  <input type="date" [(ngModel)]="birthDate" placeholder="Enter your birth date" />
+  <button (click)="calculateAge()">Calculate Age</button>
+  <div *ngIf="age">
+    <p>Your age is: {{ age.years }} years, {{ age.months }} months, and {{ age.days }} days</p>
+  </div>
+</div>
